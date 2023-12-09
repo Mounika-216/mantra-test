@@ -1,0 +1,25 @@
+.formContainer{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto;
+    background: #333;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+.formContainer>input{
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+}
+.formContainer>button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.formContainer>input:focus{
+    outline: none;
+}
